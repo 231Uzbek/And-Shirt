@@ -1,5 +1,10 @@
+let count = 0;
+const cartCountDisplay = document.getElementById('cart-count');
+
 document.querySelectorAll('.buy-btn').forEach(button => {
     button.addEventListener('click', () => {
-        alert('Товар AndShirt добавлен в твою корзину!');
+        count++;
+        cartCountDisplay.innerText = count; // Обновляем цифру в меню
+        alert('Товар добавлен!');
     });
 });
