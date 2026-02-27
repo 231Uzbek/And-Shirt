@@ -1,7 +1,41 @@
-body { font-family: sans-serif; background: #121212; color: white; text-align: center; }
-header { padding: 50px; background: #1f1f1f; }
-.catalog { display: flex; justify-content: center; gap: 20px; padding: 40px; }
-.product-card { background: #252525; padding: 20px; border-radius: 15px; width: 200px; border: 1px solid #333; }
-.product-image { font-size: 50px; margin-bottom: 10px; }
-button { background: #007bff; color: white; border: none; padding: 10px; border-radius: 5px; cursor: pointer; }
-button:hover { background: #0056b3; }
+/* Контейнер для выравнивания */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Логотип */
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+/* Списки меню */
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #007bff; /* Цвет при наведении */
+}
+
+/* Иконка корзины */
+.cart-icon {
+    background: #333;
+    padding: 5px 15px;
+    border-radius: 20px;
+}
