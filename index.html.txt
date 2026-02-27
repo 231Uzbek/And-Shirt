@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>AndShirt - Магазин одежды</title>
+    <link rel="stylesheet" href="style.css"> </head>
+<body>
+    <header>
+        <h1>AndShirt</h1>
+        <p>Стиль в каждом стежке</p>
+    </header>
+
+    <div class="catalog">
+        <div class="product-card">
+            <div class="product-image">👕</div>
+            <h3>Базовая футболка</h3>
+            <p>1500 ₽</p>
+            <button>В корзину</button>
+        </div>
+        </div>
+
+    <script src="script.js"></script> </body>
+</html>
