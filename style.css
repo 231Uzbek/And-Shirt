@@ -1,41 +1,35 @@
-/* Контейнер для выравнивания */
-.container {
+body { font-family: sans-serif; margin: 0; background: #f0f0f0; }
+
+header {
+    background: #222;
+    color: white;
+    padding: 15px 0;
+}
+
+.nav-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 20px;
 }
 
-/* Логотип */
-.logo {
-    font-size: 24px;
-    font-weight: bold;
-    letter-spacing: 2px;
-}
-
-/* Списки меню */
-.nav-links {
-    list-style: none;
+.nav-menu {
     display: flex;
-    gap: 30px;
+    list-style: none;
+    gap: 20px;
+    padding: 0;
 }
 
-.nav-links a {
-    color: white;
-    text-decoration: none;
-    font-weight: 500;
-    transition: color 0.3s;
-}
+.nav-menu a { color: white; text-decoration: none; }
+.nav-menu a:hover { color: #007bff; }
 
-.nav-links a:hover {
-    color: #007bff; /* Цвет при наведении */
-}
+.catalog { padding: 40px; display: flex; justify-content: center; }
 
-/* Иконка корзины */
-.cart-icon {
-    background: #333;
-    padding: 5px 15px;
-    border-radius: 20px;
+.product-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    text-align: center;
 }
